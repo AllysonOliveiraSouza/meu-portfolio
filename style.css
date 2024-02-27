@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: "Staatliches", sans-serif;
+}
+
+body {
+    background-color: #410553;
+    font-family: "Staatliches", sans-serif;
+
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav button {
+    font-family: "Staatliches", sans-serif;
+    background-color: transparent;
+    color: white;
+}
+
+nav button:hover {
+    transform: scale(1.1);
+    color: #410553;
+    -webkit-text-stroke: white 0.3px;
+}
+
+
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Staatliches", sans-serif;
+    color: white;
+}
+
+@media (min-width: 300px) {
+    nav button {
+        font-size: 1.5rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-desenvolvedor {
+        width: 300px;
+        height: 300px;
+        border: 5px solid white;
+        box-shadow: 10px 10px #0000004f;
+        margin-top: 10px;
+    }
+
+    .imagem-desenvolvedor img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-apresentacao {
+        margin-top: 20px;
+        background-color: #000000b0;
+        box-shadow: 10px 10px #0000004f;
+        display: block;
+        width: 100%;
+        height: 250px;
+    }
+
+    .card-apresentacao button:hover {
+        transform: scale(1.1);
+    }
+
+    .bem-vindo-texto {
+        color: white;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .embrulho-bem-vindo-texto {
+        font-size: 35px;
+    }
+
+    .eu-sou {
+        font-size: 20px;
+        color: white;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-sobre-mim {
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-sobre-mim button {
+        background-color: white;
+        border: 2px solid black;
+        color: #000;
+        width: 120px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .social-media {
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .social-media button {
+        background-color: black;
+        border: 2px solid white;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media button img {
+        width: 90%;
+        height: 90%;
+    }
+
+    footer {
+        font-size: 1.2rem;
+        height: 25vh;
+    }
+}
+
+@media (min-width: 576px) {
+
+    footer {
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px) {
+
+    main {
+        height: 100vh;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagem-desenvolvedor {
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+    }
+
+    .card-apresentacao {
+        width: 300px;
+    }
+
+    .embrulho-bem-vindo-texto {
+        font-size: 25px;
+    }
+
+    .social-media button {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .card-apresentacao {
+        width: 400px;
+    }
+
+    .social-media button {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer {
+        height: 10vh;
+    }
+}
