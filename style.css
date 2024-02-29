@@ -25,9 +25,11 @@ nav {
     height: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-nav button {
+nav button,
+nav a {
     font-family: "Staatliches", sans-serif;
     background-color: transparent;
     color: white;
@@ -39,15 +41,28 @@ nav button:hover {
     -webkit-text-stroke: white 0.3px;
 }
 
-
-
 footer {
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Staatliches", sans-serif;
     color: white;
+    width: 100vw;
+    float: left;
+}
+
+/*Página projetos*/
+
+.box-projetos {
+    display: block;
+    margin: auto;
+
+}
+
+.card-projeto {
+    cursor: pointer;
+    border: 5px solid #410553;
+    box-sizing: border-box;
 }
 
 @media (min-width: 300px) {
@@ -55,7 +70,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    main {
+    .main-index {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -135,8 +150,8 @@ footer {
     .social-media button {
         background-color: black;
         border: 2px solid white;
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -145,6 +160,37 @@ footer {
     .social-media button img {
         width: 90%;
         height: 90%;
+    }
+
+    .box-projetos {
+        width: 95vw;
+    }
+
+    .card-projeto {
+        width: 100%;
+        height: 50vh;
+        display: block;
+    }
+
+    .titulo-card-projeto {
+        background-color: #000000b0;
+        color: white;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagem-card-projeto {
+        width: 100%;
+        height: 80%;
+    }
+
+    .imagem-card-projeto img {
+        width: 100%;
+        height: 100%;
     }
 
     footer {
@@ -162,7 +208,7 @@ footer {
 
 @media (min-width: 768px) {
 
-    main {
+    .main-index {
         height: 100vh;
         flex-direction: row-reverse;
         justify-content: center;
@@ -187,6 +233,19 @@ footer {
         width: 45px;
         height: 45px;
     }
+
+    .box-projetos {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .card-projeto {
+        margin: 0;
+        width: 50%;
+        height: 300px;
+        float: left;
+    }
+
 }
 
 @media (min-width: 992px) {}
