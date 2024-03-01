@@ -7,6 +7,7 @@ button {
     cursor: pointer;
     border: none;
     font-family: "Staatliches", sans-serif;
+    font-weight: bold;
 }
 
 body {
@@ -47,8 +48,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 100vw;
-    float: left;
 }
 
 /*Página projetos*/
@@ -184,6 +183,7 @@ footer {
     }
 
     .imagem-card-projeto {
+        background-color: #000;
         width: 100%;
         height: 80%;
     }
@@ -191,6 +191,33 @@ footer {
     .imagem-card-projeto img {
         width: 100%;
         height: 100%;
+    }
+
+    .box-projeto-selecionado {
+        width: 100%;
+        height: 80%;
+        background-image: url('./img/bob-esponja.gif');
+        background-size: 100% 100%;
+    }
+
+    .projeto-selecionado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #000000bb;
+    }
+
+    .projeto-selecionado button {
+        padding: 10px;
+        font-size: 22px;
+        width: 150px;
+        height: 80px;
+    }
+
+    .projeto-selecionado button:hover {
+        transform: scale(1.1);
     }
 
     footer {
