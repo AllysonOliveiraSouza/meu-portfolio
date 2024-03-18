@@ -64,6 +64,11 @@ footer {
     box-sizing: border-box;
 }
 
+.teste-embrulho {
+    position: absolute;
+    background-color: #18e01828;
+}
+
 @media (min-width: 300px) {
     nav button {
         font-size: 1.5rem;
@@ -166,6 +171,7 @@ footer {
     }
 
     .card-projeto {
+        position: relative;
         width: 100%;
         height: 50vh;
         display: block;
@@ -196,12 +202,11 @@ footer {
     .box-projeto-selecionado {
         width: 100%;
         height: 80%;
-        background-image: url('./img/bob-esponja.gif');
-        background-size: 100% 100%;
+        position: absolute;
     }
 
     .projeto-selecionado {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -272,6 +277,7 @@ footer {
         height: 300px;
         float: left;
     }
+
 
 }
 
