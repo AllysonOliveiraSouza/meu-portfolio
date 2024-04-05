@@ -79,26 +79,59 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .sobre-allyson-img {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 15px solid white;
     box-sizing: border-box;
-
+    width: 300px;
+    height: 400px;
 }
 
 .sobre-informacoes {
-    margin-left: 50px;
     padding: 30px;
-    width: 50vw;
+    width: 300px;
+    background-color: #000000b0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sobre-quadro-tecnologias {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.img-quadro-techs {
     background-color: white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.img-quadro-techs img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
 }
 
 .sobre-allyson-img img {
     width: 100%;
     height: 100%;
+}
+
+.sobre-ul-cursos li {
+    margin-bottom: 15px;
+
 }
 
 /*Página projeto detalhado */
@@ -308,15 +341,6 @@ footer {
         transform: scale(1.1);
     }
 
-    .main-sobre {
-        flex-direction: column;
-    }
-
-    .sobre-allyson-img {
-        width: 95vw;
-        height: 70vh;
-    }
-
     .video-projeto {
         width: 95vw;
         height: 300px;
@@ -350,8 +374,12 @@ footer {
 
 @media (min-width: 576px) {
 
+    .sobre-informacoes {
+        width: 400px;
+    }
+
     .sobre-allyson-img {
-        width: 500px;
+        width: 400px;
     }
 
     footer {
@@ -399,10 +427,6 @@ footer {
         float: left;
     }
 
-    .main-sobre {
-        flex-direction: row;
-    }
-
     .video-projeto {
         height: 500px;
     }
@@ -424,6 +448,14 @@ footer {
     .info-projeto {
         width: 450px;
     }
+
+    .sobre-informacoes {
+        width: 900px;
+    }
+
+    .sobre-quadro-tecnologias {
+        margin: auto;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -434,11 +466,6 @@ footer {
     .btn-social-media {
         width: 50px;
         height: 50px;
-    }
-
-    .sobre-allyson-img {
-        width: 500px;
-        height: 100vh;
     }
 
     .video-projeto {
