@@ -362,8 +362,12 @@ footer {
 
     .info-projeto {
         width: 95vw;
-        height: 300px;
+        height: 400px;
         margin: auto;
+    }
+
+    .parte-legenda-btn-link h3 {
+        font-size: 15px;
     }
 
     footer {
@@ -383,7 +387,7 @@ footer {
     }
 
     footer {
-        height: 20vh;
+        height: 30vh;
     }
 }
 
@@ -447,6 +451,10 @@ footer {
 
     .info-projeto {
         width: 450px;
+    }
+
+    .parte-legenda-btn-link h3 {
+        font-size: 20px;
     }
 
     .sobre-informacoes {
