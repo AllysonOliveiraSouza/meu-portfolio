@@ -181,6 +181,7 @@ footer {
     font-weight: 300;
 }
 
+
 @media (min-width: 300px) {
     nav button {
         font-size: 1.5rem;
@@ -194,7 +195,7 @@ footer {
 
     .imagem-desenvolvedor {
         width: 300px;
-        height: 400px;
+        height: 350px;
         border: 5px solid white;
         box-shadow: 10px 10px #0000004f;
         margin-top: 10px;
@@ -211,7 +212,7 @@ footer {
         box-shadow: 10px 10px #0000004f;
         display: block;
         width: 100%;
-        height: 250px;
+        height: 350px;
     }
 
     .card-apresentacao button:hover {
@@ -239,20 +240,24 @@ footer {
         align-items: center;
     }
 
-    .btn-sobre-mim {
+    .btn-veja-meus-projetos {
         height: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .btn-sobre-mim button {
+    .btn-veja-meus-projetos button {
         background-color: white;
         border: 2px solid black;
         color: #000;
-        width: 120px;
-        height: 40px;
+        width: 250px;
+        height: 50px;
         font-size: 30px;
+    }
+
+    .btn-veja-meus-projetos button:hover {
+        transform: scale(1.05);
     }
 
     .social-media {
@@ -362,13 +367,79 @@ footer {
 
     .info-projeto {
         width: 95vw;
-        height: 400px;
+        height: 300px;
+        margin-top: 30px;
         margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        position: relative;
     }
 
     .parte-legenda-btn-link h3 {
         font-size: 15px;
     }
+
+    .box-wrapper-info-projetos,
+    .box-wrapper-curiosidades {
+        width: 100%;
+        height: 100%;
+        background-color: #fffffff1;
+        position: absolute;
+        top: 0;
+        display: none;
+    }
+
+    .texto-curiosidade {
+        padding: 10px;
+        font-size: 19px;
+    }
+
+    .box-titulo-info-detalhada {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-conteudo-info-detalhada {
+        width: 100%;
+        height: 80%;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .box-tecnologia {
+        font-size: 30px;
+        padding: 5px;
+        background-color: #000000;
+        color: #410553;
+        -webkit-text-stroke: 0.4px white;
+    }
+
+    .btn-fechar-info-detalhada {
+        background-color: #a10b0b;
+        background-image: url('./img/close.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-size: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        right: 5px;
+        top: -35px;
+    }
+
+    .btn-fechar-info-detalhada:hover {
+        transform: scale(1.1);
+    }
+
 
     footer {
         font-size: 1.2rem;
@@ -386,8 +457,20 @@ footer {
         width: 400px;
     }
 
+    .btn-fechar-info-detalhada {
+        top: -27px;
+    }
+
+    .video-projeto {
+        margin-top: 30px;
+    }
+
+    .texto-curiosidade {
+        font-size: 25px;
+    }
+
     footer {
-        height: 30vh;
+        height: 32vh;
     }
 }
 
@@ -401,12 +484,12 @@ footer {
     }
 
     .imagem-desenvolvedor {
-        width: 300px;
         height: 400px;
         margin-left: 50px;
     }
 
     .card-apresentacao {
+        height: 250px;
         width: 300px;
     }
 
@@ -432,6 +515,7 @@ footer {
     }
 
     .video-projeto {
+        margin: auto;
         height: 500px;
     }
 
@@ -442,6 +526,7 @@ footer {
         display: flex;
         height: 100vh;
         flex-direction: row;
+        align-items: center;
     }
 
     .video-projeto {
@@ -451,6 +536,7 @@ footer {
 
     .info-projeto {
         width: 450px;
+        margin: auto;
     }
 
     .parte-legenda-btn-link h3 {
