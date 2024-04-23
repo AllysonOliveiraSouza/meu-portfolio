@@ -3,8 +3,20 @@
     padding: 0;
 }
 
+@keyframes animacao-botao {
+
+    to {
+        transform: scale(1.14);
+    }
+
+}
+
 h1 {
-    font-size: 30px;
+    font-size: 35px;
+}
+
+p {
+    font-family: "Rubik", sans-serif;
 }
 
 button {
@@ -44,6 +56,28 @@ nav button:hover {
     transform: scale(1.1);
     color: #410553;
     -webkit-text-stroke: white 0.3px;
+}
+
+.btn-contato {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(95, 247, 57);
+    animation-name: animacao-botao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.btn-contato:hover {
+    background-color: rgb(179, 255, 2);
+    ;
+}
+
+.btn-contato img {
+    width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -101,6 +135,10 @@ footer {
     margin-bottom: 10px;
 }
 
+.sobre-informacoes p {
+    font-size: 23px;
+}
+
 .sobre-quadro-tecnologias {
     width: 100%;
     max-width: 400px;
@@ -130,6 +168,9 @@ footer {
 }
 
 .sobre-ul-cursos li {
+    font-family: "Rubik", sans-serif;
+    ;
+    font-size: 23px;
     margin-bottom: 15px;
 
 }
@@ -157,7 +198,8 @@ footer {
 .caixa-texto-descricao {
     padding: 10px;
     color: white;
-    font-size: 18px;
+    text-align: center;
+    font-size: 22px;
 }
 
 .links-projeto {
@@ -184,7 +226,7 @@ footer {
 
 @media (min-width: 300px) {
     nav button {
-        font-size: 1.5rem;
+        font-size: 30px;
     }
 
     .main-index {
@@ -390,8 +432,10 @@ footer {
     }
 
     .texto-curiosidade {
-        padding: 10px;
-        font-size: 19px;
+        font-size: 20px;
+        height: max-content;
+        text-align: center;
+        width: 90%;
     }
 
     .box-titulo-info-detalhada {
@@ -402,7 +446,12 @@ footer {
         align-items: center;
     }
 
-    .box-conteudo-info-detalhada {
+    .titulo-info-detalhada {
+        font-size: 30px;
+    }
+
+    .box-conteudo-info-detalhada,
+    .box-info-curiosidade {
         width: 100%;
         height: 80%;
         padding: 5px;
@@ -411,6 +460,13 @@ footer {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .box-info-curiosidade {
+        justify-content: center;
+        align-items: start;
+        overflow: hidden;
+        overflow-y: scroll;
     }
 
     .box-tecnologia {
@@ -442,7 +498,7 @@ footer {
 
 
     footer {
-        font-size: 1.2rem;
+        font-size: 30px;
         height: 25vh;
     }
 }
@@ -500,6 +556,13 @@ footer {
     .btn-social-media {
         width: 45px;
         height: 45px;
+    }
+
+    .btn-contato {
+        position: fixed;
+        margin: 0;
+        left: 10px;
+        bottom: 10px;
     }
 
     .box-projetos {
@@ -573,7 +636,7 @@ footer {
     }
 
     footer {
-        height: 10vh;
+        height: 13vh;
     }
 }
 
