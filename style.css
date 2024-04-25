@@ -550,7 +550,6 @@ footer {
     }
 
     .imagem-desenvolvedor {
-        height: 400px;
         margin-left: 50px;
     }
 
@@ -595,6 +594,11 @@ footer {
 }
 
 @media (min-width: 992px) {
+
+    .imagem-desenvolvedor {
+        height: 400px;
+    }
+
     .main-projeto-detalhado {
         display: flex;
         height: 100vh;
