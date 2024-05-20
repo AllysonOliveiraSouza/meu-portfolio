@@ -255,7 +255,7 @@ footer {
         background-color: #000000b0;
         box-shadow: 10px 10px #0000004f;
         display: block;
-        width: 100%;
+        width: 95%;
         height: 350px;
     }
 
@@ -401,6 +401,7 @@ footer {
         width: 95vw;
         height: 300px;
         margin: auto;
+        margin-top: 15px;
     }
 
     .titulo-video-projeto {
