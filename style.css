@@ -172,8 +172,9 @@ footer {
 .sobre-ul-cursos li {
     font-family: "Rubik", sans-serif;
     ;
+    margin-left: 20px;
     font-size: 23px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
 }
 
