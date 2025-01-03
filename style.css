@@ -27,7 +27,7 @@ button {
 }
 
 body {
-    background-color: #410553;
+    background-color: #9b9b9b;
     font-family: "Staatliches", sans-serif;
 
 }
@@ -98,7 +98,7 @@ footer {
 
 .card-projeto {
     cursor: pointer;
-    border: 5px solid #410553;
+    border: 5px solid #9b9b9b;
     box-sizing: border-box;
 }
 
@@ -120,21 +120,21 @@ footer {
     margin-top: 10px;
     border: 5px solid white;
     box-sizing: border-box;
-    width: 300px;
+    width: 350px;
     height: 400px;
-    box-shadow: 10px 10px #0000004f;
+    box-shadow: 10px 10px #000000;
 }
 
 .sobre-informacoes {
     padding: 30px;
     width: 300px;
-    background-color: #000000b0;
+    background-color: #2a023a;
     color: white;
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    box-shadow: 10px 10px #0000004f;
+    box-shadow: 10px 10px #000000f8;
 }
 
 .sobre-informacoes p {
@@ -180,14 +180,10 @@ footer {
 
 /*Página projeto detalhado */
 
+.info-projeto,
 .video-projeto {
-    background-color: #000000b0;
-    box-shadow: 10px 10px #0000004f;
-}
-
-.info-projeto {
-    background-color: #000000b0;
-    box-shadow: 10px 10px #0000004f;
+    background-color: #2a023a;
+    box-shadow: 10px 10px #000;
 }
 
 .descricao-projeto {
@@ -242,7 +238,7 @@ footer {
         width: 300px;
         height: 350px;
         border: 5px solid white;
-        box-shadow: 10px 10px #0000004f;
+        box-shadow: 10px 10px #000000;
         margin-top: 10px;
     }
 
@@ -253,8 +249,8 @@ footer {
 
     .card-apresentacao {
         margin-top: 20px;
-        background-color: #000000b0;
-        box-shadow: 10px 10px #0000004f;
+        background-color: #2a023a;
+        box-shadow: 10px 10px #000;
         display: block;
         width: 95%;
         height: 350px;
@@ -351,7 +347,7 @@ footer {
     }
 
     .titulo-card-projeto {
-        background-color: #000000b0;
+        background-color: #2a023a;
         color: white;
         width: 100%;
         height: 20%;
@@ -517,10 +513,6 @@ footer {
 @media (min-width: 576px) {
 
     .sobre-informacoes {
-        width: 400px;
-    }
-
-    .sobre-allyson-img {
         width: 400px;
     }
 
