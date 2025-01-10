@@ -54,7 +54,7 @@ nav a {
 
 nav button:hover {
     transform: scale(1.1);
-    color: #410553;
+    color: #333333;
     -webkit-text-stroke: white 0.3px;
 }
 
@@ -128,13 +128,13 @@ footer {
 .sobre-informacoes {
     padding: 30px;
     width: 300px;
-    background-color: #2a023a;
+    background-color: #000;
     color: white;
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    box-shadow: 10px 10px #000000f8;
+    box-shadow: 10px 10px #333333;
 }
 
 .sobre-informacoes p {
@@ -182,8 +182,8 @@ footer {
 
 .info-projeto,
 .video-projeto {
-    background-color: #2a023a;
-    box-shadow: 10px 10px #000;
+    background-color: #000000;
+    box-shadow: 10px 10px #333333;
 }
 
 .descricao-projeto {
@@ -235,7 +235,7 @@ footer {
     }
 
     .imagem-desenvolvedor {
-        width: 300px;
+        width: 280px;
         height: 350px;
         border: 5px solid white;
         box-shadow: 10px 10px #000000;
@@ -249,8 +249,8 @@ footer {
 
     .card-apresentacao {
         margin-top: 20px;
-        background-color: #2a023a;
-        box-shadow: 10px 10px #000;
+        background-color: #000000;
+        box-shadow: 10px 10px #333333;
         display: block;
         width: 95%;
         height: 350px;
@@ -347,7 +347,7 @@ footer {
     }
 
     .titulo-card-projeto {
-        background-color: #2a023a;
+        background-color: #000000;
         color: white;
         width: 100%;
         height: 20%;
@@ -480,7 +480,7 @@ footer {
         font-size: 30px;
         padding: 5px;
         background-color: #000000;
-        color: #410553;
+        color: #000000;
         -webkit-text-stroke: 0.4px white;
     }
 
@@ -544,6 +544,7 @@ footer {
     }
 
     .imagem-desenvolvedor {
+        width: 300px;
         margin-left: 50px;
     }
 
